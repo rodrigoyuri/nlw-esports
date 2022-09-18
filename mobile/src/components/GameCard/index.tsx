@@ -39,7 +39,7 @@ export function GameCard({ data, ...rest }: Props) {
           </Text>
 
           <Text style={styles.ads}>
-            {data._count.Ads}
+            {`${data._count.Ads} anúncios`}
           </Text>
 
         </LinearGradient>
